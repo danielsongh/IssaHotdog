@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C732D6E1F244FB6007E3F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C732D6D1F244FB6007E3F3C /* AppDelegate.swift */; };
+		5C732D731F244FB6007E3F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C732D711F244FB6007E3F3C /* Main.storyboard */; };
+		5C732D751F244FB6007E3F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C732D741F244FB6007E3F3C /* Assets.xcassets */; };
+		5C732D781F244FB6007E3F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C732D761F244FB6007E3F3C /* LaunchScreen.storyboard */; };
+		5C732D811F245055007E3F3C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5C732D801F245055007E3F3C /* Inceptionv3.mlmodel */; };
+		5C732D831F2452FF007E3F3C /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C732D821F2452FF007E3F3C /* UIImageExtensions.swift */; };
+		5CAABFA91F5B4D4500C9308D /* CameraControllerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAABFA81F5B4D4500C9308D /* CameraControllerError.swift */; };
+		5CB550A61F5231F1008D2B05 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB550A51F5231F1008D2B05 /* CameraController.swift */; };
+		5CD35B971F5226A10069AE24 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD35B961F5226A10069AE24 /* Predictor.swift */; };
+		5CE303071F246E690065B93C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE303061F246E690065B93C /* ViewController.swift */; };
+		5CE303091F246F6E0065B93C /* hotdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE303081F246F6E0065B93C /* hotdog.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C732D6A1F244FB6007E3F3C /* HotdogJanai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdogJanai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C732D6D1F244FB6007E3F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C732D721F244FB6007E3F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C732D741F244FB6007E3F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C732D771F244FB6007E3F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C732D791F244FB6007E3F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C732D801F245055007E3F3C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		5C732D821F2452FF007E3F3C /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		5CAABFA81F5B4D4500C9308D /* CameraControllerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerError.swift; sourceTree = "<group>"; };
+		5CB550A51F5231F1008D2B05 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		5CD35B961F5226A10069AE24 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		5CE303061F246E690065B93C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CE303081F246F6E0065B93C /* hotdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hotdog.jpg; path = ../../../../hotdog.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C732D671F244FB6007E3F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C732D611F244FB6007E3F3C = {
+			isa = PBXGroup;
+			children = (
+				5C732D6C1F244FB6007E3F3C /* HotdogJanai */,
+				5C732D6B1F244FB6007E3F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C732D6B1F244FB6007E3F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C732D6A1F244FB6007E3F3C /* HotdogJanai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C732D6C1F244FB6007E3F3C /* HotdogJanai */ = {
+			isa = PBXGroup;
+			children = (
+				5C732D6D1F244FB6007E3F3C /* AppDelegate.swift */,
+				5CE303061F246E690065B93C /* ViewController.swift */,
+				5CB550A51F5231F1008D2B05 /* CameraController.swift */,
+				5CAABFA81F5B4D4500C9308D /* CameraControllerError.swift */,
+				5CD35B961F5226A10069AE24 /* Predictor.swift */,
+				5C732D821F2452FF007E3F3C /* UIImageExtensions.swift */,
+				5C732D711F244FB6007E3F3C /* Main.storyboard */,
+				5C732D741F244FB6007E3F3C /* Assets.xcassets */,
+				5C732D761F244FB6007E3F3C /* LaunchScreen.storyboard */,
+				5C732D791F244FB6007E3F3C /* Info.plist */,
+				5C732D801F245055007E3F3C /* Inceptionv3.mlmodel */,
+				5CE303081F246F6E0065B93C /* hotdog.jpg */,
+			);
+			path = HotdogJanai;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C732D691F244FB6007E3F3C /* HotdogJanai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C732D7C1F244FB6007E3F3C /* Build configuration list for PBXNativeTarget "HotdogJanai" */;
+			buildPhases = (
+				5C732D661F244FB6007E3F3C /* Sources */,
+				5C732D671F244FB6007E3F3C /* Frameworks */,
+				5C732D681F244FB6007E3F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotdogJanai;
+			productName = HotdogJanai;
+			productReference = 5C732D6A1F244FB6007E3F3C /* HotdogJanai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C732D621F244FB6007E3F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Daniel Song";
+				TargetAttributes = {
+					5C732D691F244FB6007E3F3C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 5C732D651F244FB6007E3F3C /* Build configuration list for PBXProject "HotdogJanai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C732D611F244FB6007E3F3C;
+			productRefGroup = 5C732D6B1F244FB6007E3F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C732D691F244FB6007E3F3C /* HotdogJanai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C732D681F244FB6007E3F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C732D781F244FB6007E3F3C /* LaunchScreen.storyboard in Resources */,
+				5C732D751F244FB6007E3F3C /* Assets.xcassets in Resources */,
+				5CE303091F246F6E0065B93C /* hotdog.jpg in Resources */,
+				5C732D731F244FB6007E3F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C732D661F244FB6007E3F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB550A61F5231F1008D2B05 /* CameraController.swift in Sources */,
+				5CE303071F246E690065B93C /* ViewController.swift in Sources */,
+				5C732D811F245055007E3F3C /* Inceptionv3.mlmodel in Sources */,
+				5C732D6E1F244FB6007E3F3C /* AppDelegate.swift in Sources */,
+				5C732D831F2452FF007E3F3C /* UIImageExtensions.swift in Sources */,
+				5CD35B971F5226A10069AE24 /* Predictor.swift in Sources */,
+				5CAABFA91F5B4D4500C9308D /* CameraControllerError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C732D711F244FB6007E3F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C732D721F244FB6007E3F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C732D761F244FB6007E3F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C732D771F244FB6007E3F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C732D7A1F244FB6007E3F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C732D7B1F244FB6007E3F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C732D7D1F244FB6007E3F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q89K2W93JC;
+				INFOPLIST_FILE = HotdogJanai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.danielsongh.HotdogJanai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C732D7E1F244FB6007E3F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q89K2W93JC;
+				INFOPLIST_FILE = HotdogJanai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.danielsongh.HotdogJanai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C732D651F244FB6007E3F3C /* Build configuration list for PBXProject "HotdogJanai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C732D7A1F244FB6007E3F3C /* Debug */,
+				5C732D7B1F244FB6007E3F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C732D7C1F244FB6007E3F3C /* Build configuration list for PBXNativeTarget "HotdogJanai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C732D7D1F244FB6007E3F3C /* Debug */,
+				5C732D7E1F244FB6007E3F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C732D621F244FB6007E3F3C /* Project object */;
+}
