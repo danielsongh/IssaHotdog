@@ -9,4 +9,4 @@ Implemented using AVFoundation for camera and CoreML+Inceptionv3 model for analy
 
 
 # Demo
-[](demo.gif)
+![](demo.gif)
